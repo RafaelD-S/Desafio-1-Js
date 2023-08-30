@@ -16,7 +16,7 @@ if(periodo == "dia") {
 
 // 02 -Loop
 
-for(let pares = 0; pares <= 50; pares += 2) {
+for(let pares = 0; pares <= 20; pares += 2) {
     console.log(pares)
 }
 // Usando da variavel pares com o valor 0, até que seja um número
@@ -27,7 +27,7 @@ for(let pares = 0; pares <= 50; pares += 2) {
 // 03 - Função que mostre no console
 
 function meFale() {
-    console.log("Ala mano, mó facilkkkkkkkkkkk")
+    console.log("Eu estou falando blablablablablablablablablabla")
 } meFale()
 
 // Criando a função me fale, tenha como ação falar o que está dentro
@@ -50,6 +50,8 @@ function maisLegal(nome) {
 function pessoaAleatoria(nome, idade, estilo) {
     console.log(`Olá, meu nome é ${nome}, eu tenho ${idade} anos, e não consigo viver sem escutar músicas do estilo ${estilo}`)
 } pessoaAleatoria("Jubriscrelson", 23, "sertanejo universitário")
+
+// É basicamente o próximo desafio
 
 
 // 06 - Função de filme e música
